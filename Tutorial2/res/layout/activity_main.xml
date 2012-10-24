@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="fill_parent" android:layout_height="fill_parent"
+ android:orientation="vertical">
+ 
+ <TextView
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:padding="10dp"
+     android:text="@string/title_activity_main"
+     android:textAppearance="@style/AppTheme"
+     android:textColor="#ff0000"
+     android:background="#C6E2FF"
+     android:gravity="center"
+     android:textSize="20sp" />
+ 
+ <EditText android:id="@+id/myFilter" android:layout_width="match_parent"
+  android:layout_height="wrap_content" android:ems="10"
+  android:hint="@string/startup_str">
+  <requestFocus />
+ </EditText>
+ 
+ <ListView android:id="@+id/missingList" android:layout_width="fill_parent"
+  android:layout_height="fill_parent" />
+ 
+</LinearLayout>
